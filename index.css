@@ -53,6 +53,21 @@ a{
 
 
 /* Start Services Section */
+.square{
+    width: 200px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: blue;
+    color: black;
+}
+#square-1{
+    background-color: yellow;
+}
+#square{
+    background-color: red;
+}
 
 
 /* End Services Section */
