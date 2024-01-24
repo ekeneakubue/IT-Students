@@ -48,6 +48,48 @@ a{
 
 /* Start About Section */
 
+.holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+    width: 100%;
+    background-color: rgb(231, 196, 202);
+}
+.left{
+    width: 40%;
+}
+img{
+    width: 130%;
+    height: 100vh;
+    margin: 0.3rem 0rem 0rem;
+}
+.right{
+    width: 45%;
+}
+h1{
+    margin: 1rem 11rem;
+}
+.motto{
+    margin: 0.5rem 0rem;
+    font-size: 25px;        
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(199, 2, 35)
+}
+.info{
+    width: 85%;
+    font-size: 20px;
+}
+button{
+    margin: 2rem 0rem;
+    font-size: 18px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    width: 25%;
+    color: whitesmoke;
+    font-weight: 600;
+}
 
 /* End About Section */
 
